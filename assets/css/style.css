@@ -1,0 +1,46 @@
+/* all elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #39a6b2;
+    /* Helvetica font is choosen for the body but if user does not have that installed it falls back to the other two fonts */
+    font-family: Helvetica, Arial, san-serif;
+}
+
+header {
+    padding: 20px 35px;
+    background-color: #39a6b2;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
+    display: inline;
+}
+
+header a {
+    text-decoration: none;
+    color: #fce138;
+}
+
+header nav {
+    /* moved elements to the right */
+    float: right;
+    /* added spacing 7px top & bottom,  and 0px to left & right */
+    margin: 7px 0;
+}
+
+header nav ul li {
+    display:inline;
+}
+
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+}
