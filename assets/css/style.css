@@ -76,7 +76,7 @@ section {
 /* hero style start */
 .hero {
     /* relative URL path */
-    background-image: url("../images/hero-bg.jpeg");
+    background-image: url("../images/hero-bg.jpg");
     height: 700px;
     background-size: cover;
     background-position: center;
