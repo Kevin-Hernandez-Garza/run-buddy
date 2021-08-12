@@ -14,14 +14,16 @@ body {
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 header h1 {
     font-weight: bold;
+    margin: 0;
     font-size: 36px;
     color: #fce138;
-    margin: 0;
-    display: inline;
 }
 
 header a {
@@ -30,8 +32,6 @@ header a {
 }
 
 header nav {
-    /* moved elements to the right */
-    float: right;
     /* added spacing 7px top & bottom,  and 0px to left & right */
     margin: 7px 0;
 }
