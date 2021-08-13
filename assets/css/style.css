@@ -185,6 +185,7 @@ button {
 }
 
 .step h3 {
+    flex: 1 30%;
     color: #024e76;
     font-size: 46px;
 }
@@ -212,6 +213,7 @@ button {
 }
 
 .step-info {
+    flex: 2 70%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
